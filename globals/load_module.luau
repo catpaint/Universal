@@ -15,7 +15,7 @@ return function(Path)
         return FuckYouCacheBitch[Path]
     end
 
-    local url = "https://cats-cure-depression.vercel.app/" .. Path
+    local url = "https://raw.githubusercontent.com/catpaint/Universal/main/" .. Path
     local CleanedPath = string.gsub(Path, "/", "")
 
     local Source = nil
