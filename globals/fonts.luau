@@ -33,15 +33,15 @@ end
 return {
     Tahoma = ImportFont(
         "IMissYouAndYouMissMeToo",
-        "https://mental1illness.vercel.app/assets/fonts/windows-xp-tahoma.ttf"
+        "https://raw.githubusercontent.com/catpaint/Universal/main/assets/fonts/windows-xp-tahoma.ttf"
     ),
     SmallestPixel7 = ImportFont(
         "WelcomeToOurMeetingAreYouIntoReadingNoNeedForBeingCoy",
-        "https://mental1illness.vercel.app/assets/fonts/smallest_pixel-7.ttf"
+        "https://raw.githubusercontent.com/catpaint/Universal/main/assets/fonts/smallest_pixel-7.ttf"
     ),
     Aller = ImportFont(
         "WeLoveAllTheDokisInDDLCButMyFavoriteIsMonikaAndYuriOkay",
-        "https://mental1illness.vercel.app/assets/fonts/Aller_Std_Rg.ttf"
+        "https://raw.githubusercontent.com/catpaint/Universal/main/assets/fonts/Aller_Std_Rg.ttf"
     )
     
 }
