@@ -60,7 +60,7 @@ local Camera = workspace.CurrentCamera
 --# UI Library
 Storage.Preload()
 local Library, SaveManager, ThemeManager = moehack.load_module("moehack.net/interface/library.luau", true), moehack.load_module("moehack.net/interface/addons/SaveManager.lua", true), moehack.load_module("moehack.net/interface/addons/ThemeManager.lua", true) do
-    local Window = Library:CreateWindow({ Title = 'moehack.net', Center = true, AutoShow = false, TabPadding = 1, MenuFadeTime = 0.2, BackgroundImage = "https://cats-cure-depression.vercel.app/assets/images/flandre_scarlet_halloween.jpg", BackgroundImageTransparency = 0.9, BackgroundImageScaleType = Enum.ScaleType.Stretch })
+    local Window = Library:CreateWindow({ Title = 'moehack.net', Center = true, AutoShow = false, TabPadding = 1, MenuFadeTime = 0.2, BackgroundImage = "https://raw.githubusercontent.com/catpaint/Universal/main/assets/images/flandre_scarlet_halloween.jpg", BackgroundImageTransparency = 0.9, BackgroundImageScaleType = Enum.ScaleType.Stretch })
     
     local Tabs = {}
 
@@ -866,7 +866,7 @@ local Library, SaveManager, ThemeManager = moehack.load_module("moehack.net/inte
     SaveManager:SetFolder('moehack/' .. string.lower(moehack.data.game_name or "universal"))
     if not isfolder('moehack/sounds') then
         makefolder('moehack/sounds')
-        writefile('moehack/sounds/chain_impact_hard2.wav', Game:HttpGet("https://cats-cure-depression.vercel.app/assets/audio/hitsounds/chain_impact_hard2.wav"))
+        writefile('moehack/sounds/chain_impact_hard2.wav', Game:HttpGet("https://raw.githubusercontent.com/catpaint/Universal/main/assets/audio/hitsounds/chain_impact_hard2.wav"))
     end
 
     if moehack.data.game_name == "Arsenal" then
